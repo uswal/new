@@ -2,12 +2,12 @@ dbtlearn:
   outputs:
     dev:
       account: KZCOZLS-IV75894
-      database: AIRBNB
-      password: "dbtPassword123"
-      role: transform
+      database: SANDBOX
+      password: Snowflakedemo#1
+      role: SYSADMIN
       schema: DEV
       threads: 1
       type: snowflake
-      user: "dbt"
+      user: suswala
       warehouse: COMPUTE_WH
   target: dev
