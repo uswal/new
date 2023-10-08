@@ -10,4 +10,5 @@ dbtlearn:
       type: snowflake
       user: dbt
       warehouse: COMPUTE_WH
+      connect_retries: 10
   target: dev
