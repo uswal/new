@@ -11,3 +11,5 @@ dbtlearn:
       user: dbt
       warehouse: COMPUTE_WH
   target: dev
+  ignore_libraries:
+    - libcrypto
